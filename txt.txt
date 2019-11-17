@@ -1,0 +1,4 @@
+PING 10.1.1.255 (10.1.1.255): 56 data bytes
+
+--- 10.1.1.255 ping statistics ---
+1 packets transmitted, 0 packets received, 100.0% packet loss
