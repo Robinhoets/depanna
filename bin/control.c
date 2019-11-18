@@ -3,8 +3,8 @@
 
 int main()
 {
-	// printf() displays the string inside quotation
-	printf("Hello, World!\n");
+	// Message the user
+	printf("Hello. Your audit is about to start...\n");
 
 
 	/*  system accesses the command line */
