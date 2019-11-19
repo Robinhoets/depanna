@@ -4,5 +4,5 @@ depanna is a C command line program that calls bash scripts to run network secur
 
 ## depanna planna (TODO)
 create nmap scripts
-
+create ping scripts
 
