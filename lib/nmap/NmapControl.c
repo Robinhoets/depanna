@@ -9,6 +9,5 @@ void getNmapReport()
 
 int main()
 {
-	printf("Hello");
 	getNmapReport();
 }
