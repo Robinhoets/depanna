@@ -9,7 +9,6 @@ depanna is a C command line program that calls bash scripts to run network secur
 
 ~~update main c file to handle control~~
 
-fix error when linking
+~~fix error when linking~~
 
-create ping scripts
-
+create scripts of all kinds...
