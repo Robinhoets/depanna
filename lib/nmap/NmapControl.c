@@ -1,14 +1,9 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include "NmapControl.h"
 
 void getNmapReport()
 {
-	int trial = system("/Users/robertsmith/Desktop/depanna/lib/nmap/nmap_scripts/open_port.sh");
+	system("/Users/robertsmith/Desktop/depanna/lib/nmap/nmap_scripts/open_port.sh");
 }
 
-
-
-int main()
-{
-	getNmapReport();
-}

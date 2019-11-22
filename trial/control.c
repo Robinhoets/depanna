@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include "/Users/robertsmith/Desktop/depanna/lib/nmap/NmapControl.h"
+#include </Users/robertsmith/Desktop/depanna/lib/nmap/NmapControl.h>
 
 int main()
 {
