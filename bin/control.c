@@ -5,7 +5,10 @@
 int main()
 {
 	
-	
+	/*
+		Calls getNmapReport from nmap library.
+		@return prints open ports to terminal.
+	*/
 	getNmapReport();
 	printf("Hello world");
 

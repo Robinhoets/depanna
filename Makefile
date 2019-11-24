@@ -1,18 +1,6 @@
-TARGET = program
-LIBS = 
-CC = gcc
-CFLAGS = -g Wall
+default: control
 
-.PHONY: default all clean
-
-default: $(TARGET)
-all: default
-
-OBJECTS = 
-HEADERS = 
-
-%.o: %.c $(HEADERS)
-
+control.o: control.c
 
 clean:
 	-rm -f *.o
