@@ -1,0 +1,8 @@
+Starting Nmap 7.80 ( https://nmap.org ) at 2019-11-23 21:48 EST
+Stats: 0:00:05 elapsed; 0 hosts completed (1 up), 1 undergoing Connect Scan
+Connect Scan Timing: About 2.00% done; ETC: 21:52 (0:04:05 remaining)
+Starting Nmap 7.80 ( https://nmap.org ) at 2019-11-23 21:50 EST
+Starting Nmap 7.80 ( https://nmap.org ) at 2019-11-23 21:51 EST
+Starting Nmap 7.80 ( https://nmap.org ) at 2019-11-23 21:51 EST
+Starting Nmap 7.80 ( https://nmap.org ) at 2019-11-23 21:52 EST
+Starting Nmap 7.80 ( https://nmap.org ) at 2019-11-23 21:56 EST
