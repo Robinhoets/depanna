@@ -2,16 +2,21 @@
 
 # find network and save as variable
 ipadd="$(ifconfig | grep "inet " |  grep -v 127.0.0.1 | cut -d\  -f2)"
+
+
+# create a range of available ips on the network to test
 iprange="${ipadd}/24"
-echo $iprange
-# scan that network for ip address connected. Save each ip as a variable.
+
+
+# scan that network for ip address connected. Save each ip in a text file.
 nmap -n -sn $iprange -oG - | awk '/Up$/{print $2}' >> test.txt
 
 
+# commented out - testing command
 # create a variable that holds this computer's ipaddress
 #v=$(curl ifconfig.me)
 
-# run nmap without ping so that every port is scanned regardless of whether it
-# returns a ping or not.
+
+# run nmap
 # save the results in t.txt in current directory
 nmap -iL test.txt >> final.txt
