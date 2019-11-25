@@ -3,6 +3,10 @@
 # find network and save as variable
 ipadd="$(ifconfig | grep "inet " |  grep -v 127.0.0.1 | cut -d\  -f2)"
 
+# strip the ending off (0x00) ip address and add 0 so that we can scan entire ip range
+ipadd="${ipadd%?}"
+ipadd="${ipadd%?}"
+ipadd="${ipadd}0"
 
 # create a range of available ips on the network to test
 iprange="${ipadd}/24"
