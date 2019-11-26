@@ -19,4 +19,6 @@ Comment code: always and forever
 
 ~~Delete test/unnessecary code~~
 
+Look into python scripts
+
 create scripts of all kinds...
