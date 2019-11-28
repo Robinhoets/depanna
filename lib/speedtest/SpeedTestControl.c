@@ -7,6 +7,5 @@ void getSpeedTestReport()
         /*
 	
         */
-        system("/Users/robertsmith/Desktop/depanna/lib/speedtest_scripts/speed_test_curl.sh");
+        system("/Users/robertsmith/Desktop/depanna/lib/speedtest/speedtest_scripts/speed_test_curl.sh");
 }
-
