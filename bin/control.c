@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include "/Users/robertsmith/Desktop/depanna/lib/nmap/NmapControl.h"
+#include "/Users/robertsmith/Desktop/depanna/lib/speedtest/SpeedTestControl.h"
 
 int main()
 {
@@ -10,6 +11,9 @@ int main()
 		@return prints open ports to terminal.
 	*/
 	getNmapReport();
+	
+	getSpeedTestReport();
+	
 	printf("Hello world");
 
 
