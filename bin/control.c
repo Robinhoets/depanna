@@ -8,12 +8,16 @@ int main()
 	
 	/*
 		Calls getNmapReport from nmap library.
-		@return prints open ports to terminal.
+		@return saves open reports in final.txt
 	*/
 	getNmapReport();
-	
+	/*
+		Calls getSpeedTestReport from speedtest library.
+		@return saves speed test report in final.txt
+	*/
 	getSpeedTestReport();
 	
+	// Test to see if methods run
 	printf("Hello world");
 
 
