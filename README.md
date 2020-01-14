@@ -22,3 +22,5 @@ Comment code: always and forever
 Look into python scripts
 
 create scripts of all kinds...
+
+Create Ping lib for getPingReport()
