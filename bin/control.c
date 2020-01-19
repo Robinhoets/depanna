@@ -2,6 +2,7 @@
 #include <stdlib.h>
 #include "/Users/robertsmith/Desktop/depanna/lib/nmap/NmapControl.h"
 #include "/Users/robertsmith/Desktop/depanna/lib/speedtest/SpeedTestControl.h"
+#include "/Users/robertsmith/Desktop/depanna/lib/ping/PingControl.h"
 
 int main()
 {
