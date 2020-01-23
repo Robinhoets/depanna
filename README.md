@@ -23,4 +23,6 @@ Look into python scripts
 
 create scripts of all kinds...
 
-Create Ping lib for getPingReport()
+~~Create Ping lib for getPingReport()~~
+
+find out where path for for ping is incorrect
